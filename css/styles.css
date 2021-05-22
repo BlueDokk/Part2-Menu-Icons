@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+.navbar{
+  background-color: #2a2138;
+}
+.navbar-nav{
+  font-size: 1.5rem;
+  list-style: none;
+  color: #cfc6dc; 
+  text-decoration: none;
+  padding-left: 0;
+}
+.navbar-item{
+  padding: 1.5rem;
+}
+.navbar-item:hover{
+  background-color: #221a2e;
+  color: #fff;
+}
+.navbar-link{
+  text-decoration: inherit;
+  color: inherit;
+}
+.navbar .fas {
+  margin-right: 1rem;
+  width: 2rem;
+  text-align: center;
+}
+@media screen and (min-width: 768px){
+  .navbar{
+    width: 20%;
+    height: 100vh;
+  }
+}
